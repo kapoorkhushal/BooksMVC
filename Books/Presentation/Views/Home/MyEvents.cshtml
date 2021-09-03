@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Shared.EventObject>
+
+@{
+    ViewBag.Title = "MyEvents";
+}
+
+<h2>My Events</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateEvent", new { @class = "navbar-brand" })
+    @Html.ActionLink("Back to List", "LoggedIn", new { @class = "navbar-brand" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EventEdit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "EventDetails", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "EventDelete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

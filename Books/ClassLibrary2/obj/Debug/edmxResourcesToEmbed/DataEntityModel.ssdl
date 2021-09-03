@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StartTime" Type="time" Precision="0" Nullable="false" />
+    <Property Name="Type" Type="bit" Nullable="false" />
+    <Property Name="Duration" Type="int" />
+    <Property Name="Desciption" Type="nvarchar(max)" />
+    <Property Name="Others" Type="nvarchar(max)" />
+    <Property Name="Emails" Type="nvarchar(max)" />
+    <Property Name="OwnerEmail" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EventMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EventId" Type="int" />
+    <Property Name="UserId" Type="int" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_EventMapping_Event">
+    <End Role="Event" Type="Self.Event" Multiplicity="0..1" />
+    <End Role="EventMapping" Type="Self.EventMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventMapping">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventMapping_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="EventMapping" Type="Self.EventMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventMapping">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BooksModelStoreContainer">
+    <EntitySet Name="Event" EntityType="Self.Event" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventMapping" EntityType="Self.EventMapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_EventMapping_Event" Association="Self.FK_EventMapping_Event">
+      <End Role="Event" EntitySet="Event" />
+      <End Role="EventMapping" EntitySet="EventMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventMapping_User" Association="Self.FK_EventMapping_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="EventMapping" EntitySet="EventMapping" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

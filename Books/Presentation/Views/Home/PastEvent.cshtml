@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Shared.EventObject>
+
+@{
+    ViewBag.Title = "PastEvent";
+}
+
+<h2>Past Events</h2>
+
+<p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        @Html.ActionLink("Create New", "CreateEvent")
+        @Html.ActionLink("Back to List", "LoggedIn")
+    }
+    else
+    {
+        @Html.ActionLink("Create New", "Login", "Account")
+        @Html.ActionLink("Back to List", "Login", "Account")
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td style="font-weight : bold">
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            | @Html.ActionLink("Details", "EventDetails", new { id = item.Id }) |
+        </td>
+    </tr>
+}
+
+</table>

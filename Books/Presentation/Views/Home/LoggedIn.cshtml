@@ -1,0 +1,37 @@
+﻿@model Shared.UserObject
+
+@{
+    ViewBag.Title = "LoggedIn";
+}
+
+<div>
+    <h2>Welcome! @Html.DisplayFor(model => model.FullName)</h2>
+
+</div>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        
+        <dd>
+            <p class="col-md-10">
+                @Html.ActionLink("My Events", "MyEvents", new { email = Model.Email })
+            </p>
+        </dd>
+
+        <dd>
+            <p class="col-md-10">
+                @Html.ActionLink("Events Invited to", "EventsInvitedTo", new { email = Model.Email })
+            </p>
+        </dd>
+
+        <dd>
+            <p class="col-md-10">
+                @Html.ActionLink("Create Events", "CreateEvent", "Home", new { email = Model.Email })
+            </p>
+        </dd>
+
+    </dl>
+</div>
+

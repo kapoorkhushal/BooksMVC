@@ -1,0 +1,14 @@
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\obj\Debug\DataEntity.csprojAssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\obj\Debug\DataEntity.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\ClassLibrary2.dll.config
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\EntityFramework.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\EntityFramework.xml
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\obj\Debug\DataEntity.csproj.CopyComplete
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\ClassLibrary3.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary2\bin\Debug\ClassLibrary3.pdb

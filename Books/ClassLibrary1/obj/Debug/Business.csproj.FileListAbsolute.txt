@@ -1,0 +1,14 @@
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary2.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary3.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary2.pdb
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary2.dll.config
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\ClassLibrary3.pdb
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\khushalkapoor\source\repos\Books\ClassLibrary1\obj\Debug\Business.csproj.CopyComplete

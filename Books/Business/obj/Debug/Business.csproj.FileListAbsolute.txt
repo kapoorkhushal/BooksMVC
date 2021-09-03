@@ -1,0 +1,16 @@
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\Business.dll
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\Business.pdb
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\ClassLibrary2.dll
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\ClassLibrary3.dll
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\FluentValidation.dll
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\EntityFramework.dll
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\ClassLibrary2.pdb
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\ClassLibrary2.dll.config
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\ClassLibrary3.pdb
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\FluentValidation.xml
+C:\Users\khushalkapoor\source\repos\Books\Business\bin\Debug\EntityFramework.xml
+C:\Users\khushalkapoor\source\repos\Books\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\khushalkapoor\source\repos\Books\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\khushalkapoor\source\repos\Books\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\khushalkapoor\source\repos\Books\Business\obj\Debug\Business.dll
+C:\Users\khushalkapoor\source\repos\Books\Business\obj\Debug\Business.pdb
